@@ -13,7 +13,7 @@ generatorOptions:
     fruit: apple
 
 configMapGenerator:
-- name: index-html-configmap
-  behavior: replace
+- name: index-dev-html-configmap
+  behavior: create
   files:
   - index-dev.html
