@@ -14,7 +14,7 @@ generatorOptions:
     # disableNameSuffixHash: true
 
 configMapGenerator:
-- name: index-html-configmap
+- name: index-html-configmap-7b58b6ct6d
   behavior: create
   files:
   - files/index.html
